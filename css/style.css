@@ -6,3 +6,14 @@
 html {
   scroll-behavior: smooth;
 }
+:root {
+  --primary-color: #ff6600;
+  --hover-color: #cf5401;
+  --white: #fff;
+  --black: #000;
+  --heading-color: #0b1b35;
+  --content-color: #8a898e;
+  --group-color: #1e0e62;
+  --group-para-color: #15143966;
+  --clint-name-color: #bdbbc5;
+}
