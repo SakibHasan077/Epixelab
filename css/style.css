@@ -17,3 +17,40 @@ html {
   --group-para-color: #15143966;
   --clint-name-color: #bdbbc5;
 }
+/*? Same Classes */
+/** btn class */
+.same-btn {
+  padding: 8px 25px;
+  background-color: var(--primary-color);
+  color: var(--white);
+}
+.same-btn:hover {
+  background-color: var(--hover-color);
+  color: var(--white);
+}
+.same-btn:active {
+  background-color: var(--hover-color) !important;
+  color: var(--white) !important;
+}
+/*? Same Classes End */
+/** Header part Start */
+header .logo-link img {
+  width: 80%;
+}
+header .nav-items ul li a,
+.login-signup button {
+  font-size: 17px;
+  line-height: 28.5px;
+}
+header .nav-items ul li:not(:first-child) a,
+.login-signup button {
+  font-weight: 500;
+}
+.login-signup button:first-child {
+  padding: 8px 25px;
+}
+.login-signup button:first-child:hover {
+  background-color: var(--primary-color);
+  color: var(--white);
+}
+/** Header part End */
