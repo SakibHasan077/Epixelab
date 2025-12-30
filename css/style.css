@@ -67,10 +67,6 @@ html {
   box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
     rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
   border-radius: 20px;
-  -webkit-border-radius: 20px;
-  -moz-border-radius: 20px;
-  -ms-border-radius: 20px;
-  -o-border-radius: 20px;
   margin-bottom: 40px;
 }
 .item-box img {
@@ -192,11 +188,6 @@ main .hero-section > div:last-child {
   transform: rotate(-6deg);
   transform-origin: top;
   z-index: -1;
-  -webkit-transform: rotate(0deg);
-  -moz-transform: rotate(-6deg);
-  -ms-transform: rotate(-6deg);
-  -o-transform: rotate(-6deg);
-  -webkit-transform: rotate(-6deg);
 }
 .img-box {
   margin-right: 20px;
@@ -265,11 +256,6 @@ main .hero-section > div:last-child {
     transform: rotate(-6deg);
     transform-origin: top;
     z-index: -1;
-    -webkit-transform: rotate(0deg);
-    -moz-transform: rotate(-6deg);
-    -ms-transform: rotate(-6deg);
-    -o-transform: rotate(-6deg);
-    -webkit-transform: rotate(-6deg);
   }
   .img-box {
     margin-right: 20px;
