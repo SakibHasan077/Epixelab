@@ -176,15 +176,11 @@ main .hero-section > div:last-child {
 }
 .hero-img::after {
   content: "";
-  background-image: url(../image/Arrow-Frame.png);
-  background-repeat: no-repeat;
-  background-size: 25%;
-  background-position: top left;
+  position: absolute;
+  inset: 12% auto auto 74%;
   width: 100%;
   height: 100%;
-  position: absolute;
-  left: 74%;
-  top: 12%;
+  background: url(../image/Arrow-Frame.png) no-repeat top left / 25%;
   transform: rotate(-6deg);
   transform-origin: top;
   z-index: -1;
