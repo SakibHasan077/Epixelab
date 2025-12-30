@@ -209,6 +209,11 @@ main .hero-section > div:last-child {
   }
 }
 @media (max-width: 992px) {
+  /*? Header Part */
+  .login-signup button:first-child {
+    margin-left: -25px;
+  }
+  /*? Header End */
   /* ? Hero Section */
   main {
     height: min-content;
@@ -267,6 +272,18 @@ main .hero-section > div:last-child {
   }
 }
 @media (max-width: 767px) {
+  /* Header part */
+  header .logo-link img {
+    width: 75%;
+  }
+  header .nav-items ul li a,
+  .login-signup button {
+    font-size: 16px;
+  }
+  .login-signup button:first-child {
+    margin-left: -25px;
+  }
+  /* // Header End */
   /* ? Hero Section */
   main {
     height: min-content;
@@ -325,6 +342,18 @@ main .hero-section > div:last-child {
   }
 }
 @media (max-width: 576px) {
+  /*? Header Section */
+  header .logo-link img {
+    width: 70%;
+  }
+  header .nav-items ul li a,
+  .login-signup button {
+    font-size: 16px;
+  }
+  .login-signup button:first-child {
+    margin-left: -25px;
+  }
+  /*? Header End */
   /* ? Hero Section */
   main {
     height: min-content;
