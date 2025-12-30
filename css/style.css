@@ -227,6 +227,11 @@ main .hero-section > div:last-child {
 /** Service Section End */
 /*todo: Media Query */
 @media (max-width: 1200px) {
+  /*Same classes */
+  .sub-heading h2 {
+    font-size: 48px;
+    line-height: 28.5px;
+  }
   /* Hero Section */
   .hero-content {
     margin-top: 70px;
@@ -281,6 +286,11 @@ main .hero-section > div:last-child {
   }
 }
 @media (max-width: 992px) {
+  /*Same classes */
+  .sub-heading h2 {
+    font-size: 44px;
+    line-height: 28.5px;
+  }
   /*? Header Part */
   .login-signup button:first-child {
     margin-left: -25px;
@@ -414,6 +424,11 @@ main .hero-section > div:last-child {
   }
 }
 @media (max-width: 576px) {
+  /*Same classes */
+  .sub-heading h2 {
+    font-size: 40px;
+    line-height: 28.5px;
+  }
   /*? Header Section */
   header .logo-link img {
     width: 70%;
