@@ -32,6 +32,70 @@ html {
   background-color: var(--hover-color) !important;
   color: var(--white) !important;
 }
+/** btn class */
+
+/** Sub-heading class */
+.sub-heading p {
+  font-family: Abel;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 28.5px;
+  letter-spacing: 45%;
+  text-align: center;
+  color: var(--content-color);
+}
+.sub-heading h2 {
+  font-weight: 400;
+  font-size: 52px;
+  line-height: 28.5px;
+  letter-spacing: 0%;
+  text-align: center;
+  color: var(--heading-color);
+}
+.sub-heading {
+  margin-bottom: 80px;
+}
+/** Sub-heading class */
+/** Service and Team section  */
+.item-box {
+  height: 450px;
+  width: 352px;
+  display: grid;
+  align-content: start;
+  justify-items: center;
+  text-align: center;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+    rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  margin-bottom: 40px;
+}
+.item-box img {
+  width: 60px;
+  margin: 30px 0 41px;
+}
+.item-box .video-icon {
+  margin-top: 45px;
+}
+.item-box h3 {
+  margin: 0 0 32px 0;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 28.5px;
+}
+.item-box p {
+  margin: 0 41px 18px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28.5px;
+}
+.item-box button {
+  margin: 0 0 26px 0;
+}
+/** Service and Team section end  */
 /*? Same Classes End */
 /** Header part Start */
 header .logo-link img {
@@ -153,6 +217,14 @@ main .hero-section > div:last-child {
   width: 130%;
 }
 /** Hero Section End */
+/** Service Section Start */
+.service {
+  overflow: hidden;
+}
+.service-item {
+  display: grid;
+}
+/** Service Section End */
 /*todo: Media Query */
 @media (max-width: 1200px) {
   /* Hero Section */
