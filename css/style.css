@@ -320,6 +320,51 @@ main .hero-section > div:last-child {
   color: var(--clint-name-color);
 }
 /** Testimonial Section End  */
+/** team Section Start */
+.team {
+  margin-top: 80px;
+}
+.team-heading {
+  margin-bottom: 53px;
+}
+.team-item {
+  display: grid;
+}
+.team-item .item-box {
+  height: 360px;
+  width: 360px;
+  box-shadow: none;
+}
+.team-item .item-box img {
+  width: 120px;
+  height: 120px;
+  margin: 50px 0 28px;
+}
+.team-item .item-box h3 {
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 32px;
+  text-align: center;
+  color: var(--group-color);
+  margin-bottom: 16px;
+}
+.team-item .item-box p {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 26px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: var(--group-para-color);
+  margin-bottom: 35px;
+}
+.team-item .social-icon {
+  height: 50px;
+}
+.team-item .social-icon img {
+  width: 30%;
+  margin-top: -35px;
+}
+/** team Section End */
 /*todo: Media Query */
 @media (max-width: 1200px) {
   /*Same classes */
