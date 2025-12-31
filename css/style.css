@@ -288,6 +288,38 @@ main .hero-section > div:last-child {
   background-size: 50% 50%;
 }
 /** Block Section End */
+/** Testimonial Section Start  */
+.testimonial {
+  margin-top: 120px;
+  padding: 0 80px;
+}
+.testimonial-heading {
+  margin-bottom: 80px;
+}
+.testimonial-item {
+  height: 250px;
+}
+.testimonial-item-img img {
+  margin: 36px 30px 0 36px;
+}
+.testimonial-item-content {
+  margin: 35px 25px 0 0;
+}
+.testimonial-item-content .clint-review {
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: 500;
+  color: var(--heading-color);
+}
+.testimonial-item-content .clint-name {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 26px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: var(--clint-name-color);
+}
+/** Testimonial Section End  */
 /*todo: Media Query */
 @media (max-width: 1200px) {
   /*Same classes */
