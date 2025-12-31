@@ -212,6 +212,82 @@ main .hero-section > div:last-child {
   display: grid;
 }
 /** Service Section End */
+/** Block Section Start */
+.block {
+  height: 380px;
+  box-sizing: border-box;
+  margin-top: 150px;
+  overflow: hidden;
+}
+/* Block Content */
+.block-content {
+  height: 100%;
+  display: grid;
+}
+.block-item-content {
+  height: 100%;
+  display: grid;
+  justify-items: start;
+  align-items: start;
+  align-content: space-between;
+}
+.block-item-content h3 {
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 32px;
+  color: var(--group-color);
+  margin-top: 18px;
+  margin-bottom: 21px;
+}
+.block-item-content p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: var(--group-para-color);
+  margin-bottom: 70px;
+  margin-top: -10px;
+}
+.block-item-content button {
+  margin-bottom: 30px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+  text-align: center;
+  vertical-align: middle;
+  color: var(--group-color);
+  padding: 10px 30px;
+}
+.block-item-content button:hover {
+  background-color: var(--primary-color);
+  border: none;
+  color: var(--white);
+}
+/* block Image */
+.block-img {
+  position: relative;
+}
+.block-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 10px;
+}
+
+.block-img .icon-img {
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50% -45%);
+}
+.icon-img img {
+  width: 140%;
+  background-image: url(../image/Icon\ -\ Fill.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 50% 50%;
+}
+/** Block Section End */
 /*todo: Media Query */
 @media (max-width: 1200px) {
   /*Same classes */
