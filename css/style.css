@@ -410,6 +410,10 @@ main .hero-section > div:last-child {
     top: -1%;
     left: 5%;
   }
+  /** Block Section  */
+  .block {
+    height: min-content;
+  }
 }
 @media (max-width: 767px) {
   /* Header part */
@@ -554,6 +558,10 @@ main .hero-section > div:last-child {
     position: absolute;
     top: 10%;
     left: 6%;
+  }
+  /** block Section */
+  .block {
+    margin-top: 50px;
   }
 }
 @media (max-width: 400px) {
