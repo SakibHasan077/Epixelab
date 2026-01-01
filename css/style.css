@@ -586,6 +586,14 @@ main .hero-section > div:last-child {
     margin: 0 0 26px 0;
   }
   /** Service & Team Section End */
+  /** Newsletter Section Start */
+  .newsletter {
+    margin-top: 80px;
+  }
+  .newsletter .newsletter-img img {
+    width: 50%;
+  }
+  /** Newsletter Section End */
 }
 @media (max-width: 767px) {
   /* Header part */
@@ -685,6 +693,11 @@ main .hero-section > div:last-child {
   .team {
     margin-top: 80px;
   }
+  /** Newsletter Section Start */
+  .newsletter .newsletter-img img {
+    width: 60%;
+  }
+  /** Newsletter Section End */
 }
 @media (max-width: 576px) {
   /*Same classes */
@@ -793,6 +806,11 @@ main .hero-section > div:last-child {
   .team {
     margin-top: 70px;
   }
+  /** Newsletter Section Start */
+  .newsletter .newsletter-img img {
+    width: 70%;
+  }
+  /** Newsletter Section End */
 }
 @media (max-width: 400px) {
   /* ? Hero Section */
