@@ -365,6 +365,37 @@ main .hero-section > div:last-child {
   margin-top: -35px;
 }
 /** team Section End */
+/** Newsletter Section Start */
+.newsletter {
+  margin-top: 80px;
+}
+.newsletter > .row:not(:first-child) > div {
+  height: 370px;
+}
+.newsletter-img {
+  display: grid;
+  place-items: center;
+}
+.newsletter .newsletter-img img {
+  width: 80%;
+}
+.newsletter-input-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+}
+.newsletter-input-box p {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28.5px;
+  margin-bottom: 23px;
+  margin-top: 10px;
+}
+.newsletter-input-box form input {
+  margin-bottom: 55px;
+  box-shadow: 5px 5px 20px 0px rgba(0, 0, 0, 0.432);
+}
+/** Newsletter Section End */
 /*todo: Media Query */
 @media (max-width: 1200px) {
   /*Same classes */
