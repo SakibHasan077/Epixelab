@@ -48,7 +48,6 @@ html {
   font-weight: 400;
   font-size: 52px;
   line-height: 28.5px;
-  letter-spacing: 0%;
   text-align: center;
   color: var(--heading-color);
 }
@@ -388,8 +387,7 @@ main .hero-section > div:last-child {
   font-weight: 400;
   font-size: 18px;
   line-height: 28.5px;
-  margin-bottom: 23px;
-  margin-top: 10px;
+  margin: 10px 0 23px;
 }
 .newsletter-input-box form input {
   margin-bottom: 55px;
@@ -398,8 +396,7 @@ main .hero-section > div:last-child {
 /** Newsletter Section End */
 /** Footer Section Start */
 footer {
-  margin-top: 130px;
-  margin-bottom: 100px;
+  margin: 130px 0 100px;
 }
 footer .footer-para {
   font-weight: 400;
